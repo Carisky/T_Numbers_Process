@@ -14,6 +14,10 @@
     </Window.SystemBackdrop>
 
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12">
+            <Button x:Name="AddSourceButton" Content="Add Source File" Click="OnAddSourceFileClick" />
+            <Button x:Name="AddCheckButton" Content="Add File To Check" Click="OnAddFileToCheckClick" />
+            <Button x:Name="StartButton" Content="Start" Click="OnStartClick" />
+        </StackPanel>
     </Grid>
 </Window>
