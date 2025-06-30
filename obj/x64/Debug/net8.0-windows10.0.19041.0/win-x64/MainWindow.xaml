@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="T_Numbers_Check.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T_Numbers_Check"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="T_Numbers_Check">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12" Width="300">
+            <Button x:ConnectionId='2' x:Name="AddSourceButton" Content="Add Source File"                              HorizontalAlignment="Stretch"/>
+            <ComboBox x:ConnectionId='3' x:Name="SourceSheetComboBox" Visibility="Collapsed" HorizontalAlignment="Stretch"/>
+
+            <Button x:ConnectionId='4' x:Name="AddCheckButton" Content="Add File To Check"                               HorizontalAlignment="Stretch"/>
+            <ComboBox x:ConnectionId='5' x:Name="CheckSheetComboBox" Visibility="Collapsed" HorizontalAlignment="Stretch"/>
+
+            <Button x:ConnectionId='6' x:Name="StartButton" Content="Start"                      HorizontalAlignment="Stretch"/>
+            <TextBlock x:ConnectionId='7' x:Name="StatusText" Text="" HorizontalAlignment="Center" TextAlignment="Center" FontSize="14"/>
+        </StackPanel>
+    </Grid>
+</Window>
+

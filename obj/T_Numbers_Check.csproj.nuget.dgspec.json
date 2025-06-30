@@ -58,6 +58,10 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.7.250606001, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.4, )"
             }
           },
           "imports": [

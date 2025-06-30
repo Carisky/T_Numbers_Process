@@ -1,0 +1,1 @@
+C:\Users\egork\source\repos\T_Numbers_Check\T_Numbers_Check\T_Numbers_Check.csproj;x64

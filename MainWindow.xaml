@@ -14,10 +14,15 @@
     </Window.SystemBackdrop>
 
     <Grid>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12">
-            <Button x:Name="AddSourceButton" Content="Add Source File" Click="OnAddSourceFileClick" />
-            <Button x:Name="AddCheckButton" Content="Add File To Check" Click="OnAddFileToCheckClick" />
-            <Button x:Name="StartButton" Content="Start" Click="OnStartClick" />
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12" Width="300">
+            <Button x:Name="AddSourceButton" Content="Add Source File" Click="OnAddSourceFileClick" HorizontalAlignment="Stretch"/>
+            <ComboBox x:Name="SourceSheetComboBox" Visibility="Collapsed" HorizontalAlignment="Stretch"/>
+
+            <Button x:Name="AddCheckButton" Content="Add File To Check" Click="OnAddFileToCheckClick" HorizontalAlignment="Stretch"/>
+            <ComboBox x:Name="CheckSheetComboBox" Visibility="Collapsed" HorizontalAlignment="Stretch"/>
+
+            <Button x:Name="StartButton" Content="Start" Click="OnStartClick" HorizontalAlignment="Stretch"/>
+            <TextBlock x:Name="StatusText" Text="" HorizontalAlignment="Center" TextAlignment="Center" FontSize="14"/>
         </StackPanel>
     </Grid>
 </Window>
