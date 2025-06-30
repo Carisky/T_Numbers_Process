@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "T_Numbers_Check (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "T_Numbers_Check (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
